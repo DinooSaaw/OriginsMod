@@ -1,0 +1,10 @@
+{
+  "type": "origins:inventory",
+  "drop_on_death": false,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": true
+    },
+  "name": "Storage Shell",
+  "description": "You're able to use your shell as a way to store items. The items in the storage shell don't drop after death."
+}

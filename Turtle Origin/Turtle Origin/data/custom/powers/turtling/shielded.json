@@ -1,0 +1,14 @@
+{
+	"type": "origins:conditioned_attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.armor",
+		"operation": "addition",
+		"value": 10
+	},
+	"tick_rate": 20,
+	"condition": {
+		"type": "origins:sneaking"
+	},
+	"name": "Shielded",
+	"description": "Using your sturdy shell, you can get a some extra protection while crouching."
+}

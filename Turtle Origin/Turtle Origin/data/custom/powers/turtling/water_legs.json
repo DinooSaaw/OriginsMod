@@ -1,0 +1,37 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "generic.movement_speed",
+        "operation": "addition",
+        "value": -0.10
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0.0,
+            "inverted": true
+          },
+          {    
+            "type": "origins:in_rain",
+            "inverted": true
+          },
+          {    
+            "type": "origins:status_effect",
+            "effect": "minecraft:water_breathing",
+            "inverted": true
+          },
+          {    
+            "type": "origins:status_effect",
+            "effect": "minecraft:conduit_power",
+            "inverted": true
+          }
+        ]
+      },
+    "tick_rate": 20,
+    "name": "Turtle Legs",
+    "description": "Though you can breathe on land, your legs are not fitted for land so you gain a little slowness."
+}

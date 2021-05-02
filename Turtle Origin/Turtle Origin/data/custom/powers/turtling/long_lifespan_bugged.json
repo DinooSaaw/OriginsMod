@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "generic.max_health",
+		"operation": "addition",
+		"value": 10
+	},
+	"name": "Long Life",
+	"description": "You inherited lifespan from your ancestors giving you 5 extra hearts."
+}

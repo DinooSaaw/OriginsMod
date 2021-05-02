@@ -1,0 +1,21 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+	  "type": "origins:execute_command",
+	  "command": "attribute @s minecraft:generic.max_health base set 26",
+	  "permission_level": 4
+	},
+	"entity_action_respawned": {
+		"type": "origins:execute_command",
+		"command": "attribute @s minecraft:generic.max_health base set 26",
+		"permission_level": 4
+	},
+	"entity_action_removed": {
+	  "type": "origins:execute_command",
+	  "command": "attribute @s minecraft:generic.max_health base set 20",
+	  "permission_level": 4
+	},
+	"execute_chosen_when_orb": true,
+	"name": "Long Lifespan",
+	"description": "You inherited a longer lifespan from your ancestors giving you 3 extra hearts."
+}

@@ -1,0 +1,25 @@
+{
+		"powers": [
+			"origins:aquatic",
+			"origins:vegetarian",
+			"origins:more_exhaustion",
+			"origins:water_breathing",
+			"turtling:adaptive_lungs",
+			"origins:aqua_affinity",
+			"origins:like_water",
+			"origins:swim_speed",
+			"origins:water_vision",
+			"turtling:water_legs",
+			"turtling:shielded",
+			"turtling:long_lifespan",
+			"origins:no_shield",
+			"turtling:shell_storage",
+			"turtling:shell_storage_sound",
+			"turtling:tortlesize"
+		],
+		"icon": "minecraft:scute",
+	"order": 1,
+	"impact": 3,
+    "name": "Turtle",
+    "description": "Slow moving but tanky animals of the sea!"
+}

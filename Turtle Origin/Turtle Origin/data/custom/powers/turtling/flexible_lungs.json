@@ -1,0 +1,10 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:gain_air",
+		"value": 30
+	},
+	"interval": 20,
+	"name": "Flexible Lungs",
+	"description": "Your unique Turtle lungs allow you to breathe both underwater and on land."
+}

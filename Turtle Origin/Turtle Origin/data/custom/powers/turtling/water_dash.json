@@ -1,0 +1,29 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "local"
+	},
+	"cooldown": 60,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 5
+	},
+
+	"condition": {
+		"type": "origins:or",
+		"conditions": [
+		  {
+			"type": "origins:submerged_in",
+			"fluid": "minecraft:water"
+		  },
+		  {    
+			"type": "origins:in_rain"
+		  }
+		]
+	  },
+
+	"name": "Water Dash",
+	"description": "You're able to charge in the direction you are looking when you're submerged underwater."
+}
