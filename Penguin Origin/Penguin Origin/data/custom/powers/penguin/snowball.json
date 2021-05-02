@@ -12,5 +12,5 @@
 		"sound": "entity.snowball.throw",
 		"tag": "{damage:5}",
 		"name": "Snowball",
-		"description": "Fire snowball upon your enemies."
+		"description": "Use primary fire to fire snowball upon your enemies."
 }

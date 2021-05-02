@@ -1,0 +1,16 @@
+{
+	"powers": [
+        "custom:dinosaur/armor_toughness",
+        "custom:dinosaur/attack_damage",
+        "custom:dinosaur/speed",
+        "custom:dinosaur/bigboi",
+        "custom:dinosaur/health",
+        "custom:dinosaur/knockback",
+        "custom:dinosaur/slowness"
+	],
+	"icon": "minecraft:crying_obsidian",
+	"order": 1,
+	"impact": 3,
+    "name": "Dinosaur",
+    "description": "Rawr!"
+}

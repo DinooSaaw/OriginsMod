@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "addition",
+      "value": "496"
+    },
+    "name": "Attack Speed",
+    "description": "Your attack speed is reduce!"
+}
