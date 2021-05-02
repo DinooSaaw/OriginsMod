@@ -1,7 +1,0 @@
-{
-    "type": "origins:modify_player_spawn",
-    "dimension": "minecraft:overworld",
-    "structure": "minecraft:igloo",
-    "name": "Penguin's Home",
-    "description": "Your natural spawn is an igloo."
-}
