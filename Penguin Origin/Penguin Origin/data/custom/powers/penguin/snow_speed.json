@@ -1,0 +1,45 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:snow"
+                    }
+                },
+                {
+                    "type": "origins:on_block",
+                    "block_condition": {
+                        "type": "origins:in_tag",
+                        "tag": "minecraft:ice"
+                    }
+                },
+                {
+                    "type": "origins:on_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:snow_block"
+                    }
+                }
+            ]
+        },
+        "if_action": {
+            "type": "origins:execute_command",
+            "command": "attribute @s minecraft:generic.movement_speed base set 0.15",
+            "permission_level": 4
+        },
+        "else_action": {
+            "type": "origins:execute_command",
+            "command": "attribute @s minecraft:generic.movement_speed base set 0.03",
+            "permission_level": 4
+        }
+    },
+    "interval": 1,
+    "name": "Penguin's Feets",
+    "description": "You walk faster on snow and ice but you are slower on anything else."
+}

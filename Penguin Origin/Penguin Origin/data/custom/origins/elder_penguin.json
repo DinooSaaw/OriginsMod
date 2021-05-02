@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"custom:penguin/cod_lover",
+		"custom:elder_penguin/desert_weakness",
+		"custom:penguin/extra_air",
+		"custom:penguin/fish_diet",
+		"custom:elder_penguin/heath",
+		"custom:penguin/igloo_spawn",
+		"custom:elder_penguin/nether_weakness",
+		"custom:elder_penguin/smallbean",
+		"custom:elder_penguin/snow_speed",
+		"custom:elder_penguin/snowball",
+		"origins:swim_speed"
+	],
+    "unchoosable": true,
+	"icon": "minecraft:snowball",
+	"order": 1,
+	"impact": 3,
+    "name": "Elder Penguin",
+    "description": "Elder Penguin Go Noot Noot."
+}

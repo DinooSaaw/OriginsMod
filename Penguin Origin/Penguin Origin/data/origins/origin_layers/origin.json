@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "origins": [
+        "custom:penguin",
+        "custom:elder_penguin"
+    ]
+}

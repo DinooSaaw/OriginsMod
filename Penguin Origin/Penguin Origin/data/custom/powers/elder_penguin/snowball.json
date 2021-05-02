@@ -1,0 +1,16 @@
+{
+	"type": "origins:fire_projectile",
+	"entity_type": "minecraft:snowball",
+		"cooldown": 100,
+		"key": {
+			"key": "primary",
+			"continuous": true
+		},
+		"hud_render": {
+			"should_render": true
+		},
+		"sound": "entity.snowball.throw",
+		"tag": "{damage:5}",
+		"name": "Snowball",
+		"description": "Fire snowball upon your enemies."
+}

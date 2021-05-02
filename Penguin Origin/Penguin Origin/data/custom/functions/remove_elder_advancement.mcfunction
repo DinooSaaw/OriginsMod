@@ -1,0 +1,2 @@
+advancement revoke @p only custom:elder
+tellraw @a ["",{"selector":"@p","color":"yellow"},{"text":" Has evolved to an","color":"green"},{"text":" Elder ","color":"aqua"},{"text":"Penguin","color":"aqua","clickEvent":{"action":"open_url","value":"https://en.wikipedia.org/wiki/Penguin"}}]

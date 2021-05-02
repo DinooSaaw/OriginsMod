@@ -1,0 +1,10 @@
+{ 
+    "type": "origins:modify_jump",
+    "modifier": {
+      "name": "Higher jump",
+      "value": 0.35,
+      "operation": "multiply_base"
+  },
+  "name": "Higher jump",
+  "description": "You can jump higher. Just bend with yours knees."
+  }

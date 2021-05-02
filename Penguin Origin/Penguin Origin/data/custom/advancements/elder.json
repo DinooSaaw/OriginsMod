@@ -1,0 +1,17 @@
+{
+  "criteria": {
+      "Conduit": {
+          "trigger": "minecraft:placed_block",
+          "conditions": {
+              "block": "minecraft:conduit",
+              "item": {
+                  "item": "minecraft:conduit"
+              }
+          }
+      }
+  },
+  "rewards": {
+      "experience": 380,
+      "function": "custom:remove_elder_advancement"
+  }
+}

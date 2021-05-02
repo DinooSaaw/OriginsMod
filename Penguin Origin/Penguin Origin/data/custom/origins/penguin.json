@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"custom:penguin/armor",
+		"custom:penguin/cod_lover",
+		"custom:penguin/desert_weakness",
+		"custom:penguin/extra_air",
+		"custom:penguin/fish_diet",
+		"custom:penguin/heath",
+		"custom:penguin/igloo_spawn",
+		"custom:penguin/jump",
+		"custom:penguin/nether_weakness",
+		"custom:penguin/smallbean",
+		"custom:penguin/snow_speed",
+		"custom:penguin/snowball",
+		"origins:swim_speed"
+	],
+	"icon": "minecraft:ice",
+	"order": 1,
+	"impact": 3,
+    "name": "Penguin",
+    "description": "Penguin Go Noot Noot. Also happen to be know for gaining knowledge and evolving!"
+}
